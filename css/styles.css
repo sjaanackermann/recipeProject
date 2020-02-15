@@ -1,6 +1,13 @@
+/* Primary Background Color */
+
+.cherries {
+    background-color: #b01c2d;
+   /* background-image: url("../images/Cherries 3.jpg"); */
+}
+
 /* Navbar bg Color */
 .primary-color {
-    background-color: rgb(131, 19, 19);
+    background-color: #b01c2d;
 }
 
 .dropdown {
