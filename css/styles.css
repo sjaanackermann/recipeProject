@@ -1,7 +1,7 @@
 /* Primary Background Color */
 
 .cherries {
-    background-color: #b01c2d;
+    background-color: #b01c2dcb;
    /* background-image: url("../images/Cherries 3.jpg"); */
 }
 
@@ -20,6 +20,7 @@
 
 .navbar .navbar-nav li a {
     color: white;
+    font-size: 24px;
 }
 
 .navbar .nav-item .dropdown-menu .dropdown-item{
@@ -59,14 +60,67 @@
 }
 .home {
     font-family: 'Galada', cursive;
-    font-size: 56px;
+    font-size: 72px;
 }
 .home1 {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
 }
+.h3 {
+    font-family: 'Rochester', cursive;
+    font-size: 54px;
+    font-weight: bold;
+}
 
 /* Jumbotron Image */
-.cakeslice {
-    width: 100%
+.border {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #b01c2d;
+    border-width: 2px;
+}
+
+/* Recipe Styling */
+.recipe {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 24px;
+    color: white;
+}   
+
+/* Nutritional Information*/
+
+.nutrition-label-container {
+    table-layout: fixed;
+    width: 280px;
+    background-color: #1299ad;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #b01c2d;
+    color: white;
+}
+
+/* Images & Media Queries */
+
+@media (max-width: 576px) {
+ img {
+     width: 100%;
+ }
+}
+
+@media (max-width: 768px) {
+ img {
+     width: 100%;
+ }
+}
+
+@media (max-width: 992px) {
+ img {
+     width: 100%;
+ }
+}
+
+@media (max-width: 1200px) {
+ img {
+     width: 100%;
+ }
 }
