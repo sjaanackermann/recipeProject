@@ -6,13 +6,34 @@
 }
 
 /* Navbar bg Color */
-.primary-color {
+.navbar {
     background-color: #b01c2d;
 }
 
-.dropdown {
+.navbar .navbar-brand {
     background-color: #1299ad;
 }
+
+.navbar .navbar-brand:hover {
+    color: #1299ad;
+}
+
+.navbar .navbar-nav li a {
+    color: white;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    color: #b01c2d;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    color: #1299ad;
+}
+
+.navbar-toggler {
+    background-color: #1299ad;
+}
+
 
 /* Text Colors */
 .primary-color a {
