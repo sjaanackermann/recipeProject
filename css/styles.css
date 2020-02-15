@@ -6,3 +6,39 @@
 .dropdown {
     background-color: #1299ad;
 }
+
+/* Text Colors */
+.primary-color a {
+    color: white;
+}
+
+.primary-color li a {
+    color: white;
+}
+
+/* Jumbotron bg Image */
+.header-image {
+    background-image: url('../images/Cherries 3.jpg');
+}
+
+/* Jumbotron Font*/
+.header-font {
+    color: white
+}
+
+.opacity {
+    background-color: #1298ad3f;
+}
+.home {
+    font-family: 'Galada', cursive;
+    font-size: 56px;
+}
+.home1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/* Jumbotron Image */
+.cakeslice {
+    width: 100%
+}
