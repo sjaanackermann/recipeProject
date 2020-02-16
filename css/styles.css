@@ -67,17 +67,22 @@
     font-size: 24px;
 }
 .h3 {
-    font-family: 'Rochester', cursive;
-    font-size: 54px;
-    font-weight: bold;
+    font-family: 'Galada', cursive;
+    font-size: 48px;
+    color: white;
 }
 
 /* Jumbotron Image */
 .border {
     border-radius: 50%;
-    border-style: solid;
-    border-color: #b01c2d;
-    border-width: 2px;
+}
+
+
+/* Grid Styling */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
 }
 
 /* Recipe Styling */
@@ -92,34 +97,49 @@
 .nutrition-label-container {
     table-layout: fixed;
     width: 280px;
-    background-color: #1299ad;
+    background-color: #1298ad93;
     border-style: solid;
     border-width: 10px;
     border-color: #b01c2d;
     color: white;
 }
 
+.table {
+    max-width: 50%;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1299ad;
+    color: white;
+    text-align: center;
+
 /* Images & Media Queries */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
  img {
      width: 100%;
  }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
  img {
      width: 100%;
  }
 }
 
-@media (max-width: 992px) {
+@media screen and(max-width: 992px) {
  img {
      width: 100%;
  }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
  img {
      width: 100%;
  }
