@@ -2,7 +2,6 @@
 
 .cherries {
     background-color: #b01c2dcb;
-   /* background-image: url("../images/Cherries 3.jpg"); */
 }
 
 /* Navbar bg Color */
@@ -37,7 +36,7 @@
 
 
 /* Text Colors */
-.primary-color a {
+.primary-color a h1 {
     color: white;
 }
 
@@ -47,7 +46,7 @@
 
 /* Jumbotron bg Image */
 .header-image {
-    background-image: url('../images/Cherries 3.jpg');
+    background-image: url('../images/cherries3.jpg');
 }
 
 /* Jumbotron Font*/
@@ -67,21 +66,21 @@
     font-size: 24px;
 }
 .h3 {
-    font-family: 'Galada', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 48px;
     color: white;
+    text-align: center;
 }
 
 /* Jumbotron Image */
 .border {
     border-radius: 50%;
+
 }
 
 
 /* Grid Styling */
-
-
-* {
+html {
     box-sizing: border-box;
   }
 
@@ -92,7 +91,6 @@
   }
   
   [class*="col-"] {
-    float: left;
     padding: 15px;
   }
 
@@ -110,6 +108,14 @@
 .col-12 {width: 100%;}
 
 
+.bgchange {
+ background-color: #1299ad;
+}
+
+.centre {
+ align-content: center;
+}
+
 
 /* Recipe Styling */
 .recipe {
@@ -117,6 +123,12 @@
     font-size: 24px;
     color: white;
 }  
+.ebc {
+    font-family: 'Righteous', cursive;
+    background-color: #1299ad;
+    color: white;
+    text-align: center;
+}
  
 
 /* Nutritional Information*/
@@ -138,7 +150,7 @@
 /* Footer */
 .footer {
     color: white;
-    background-color: #1299ad;
+    background-color: #b01c2d;
     text-align: center;
 }
 
@@ -166,7 +178,7 @@
     max-width: 75%;
   }
   .table {
-    max-width: 50%;
+    max-width: 75%;
 }
 }
 
