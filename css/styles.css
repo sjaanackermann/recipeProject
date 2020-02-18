@@ -31,6 +31,7 @@
 }
 
 .navbar-toggler {
+    color: #b01c2d;
     background-color: #1299ad;
 }
 
@@ -55,8 +56,11 @@
 }
 
 .opacity {
-    background-color: #1298ad3f;
+    background-color: #b01c2d;
+
+    
 }
+
 .home {
     font-family: 'Galada', cursive;
     font-size: 72px;
@@ -73,11 +77,11 @@
 }
 
 /* Jumbotron Image */
-.border {
+.imgborder {
     border-radius: 50%;
-
+    border-color: #1299ad !important; 
+    border-width: 6px solid !important;
 }
-
 
 /* Grid Styling */
 html {
@@ -91,7 +95,7 @@ html {
   }
   
   [class*="col-"] {
-    padding: 15px;
+    padding: 30px;
   }
 
 .col-1 {width: 8.33%;}
@@ -106,7 +110,6 @@ html {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
 
 .bgchange {
  background-color: #1299ad;
