@@ -78,10 +78,12 @@
 .home {
     font-family: 'Galada', cursive;
     font-size: 72px;
+    text-align: center;
 }
 .home1 {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
+    text-align: center;
 }
 .h3 {
     font-family: 'Righteous', cursive;
