@@ -39,6 +39,16 @@
     border-width:  2px;
   }
 
+  .nav-item .nav-link:hover {
+    background-color: #1298ad73;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 24px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
 
 /* Text Colors */
 .primary-color a h1 {
