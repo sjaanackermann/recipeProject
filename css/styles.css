@@ -181,9 +181,10 @@ th {
 /* Images & Media Queries */
 
 @media screen and (max-width: 576px) {
- img {
-     width: 100%;
- }
+  img {
+        max-width: 100%;
+        height: auto;
+      }
  .column {
     flex: 100%;
     max-width: 75%;
@@ -194,9 +195,10 @@ th {
 }
 
 @media screen and (max-width: 768px) {
- img {
-     width: 100%;
- }
+  img {
+        max-width: 100%;
+        height: auto;
+      }
  .column {
     flex: 100%;
     max-width: 75%;
@@ -207,9 +209,10 @@ th {
 }
 
 @media screen and(max-width: 992px) {
- img {
-     width: 100%;
- }
+  img {
+        max-width: 100%;
+        height: auto;
+      }
  .column {
     flex: 100%;
     max-width: 75%;
@@ -220,9 +223,10 @@ th {
 }
 
 @media screen and (max-width: 1200px) {
- img {
-     width: 100%;
- }
+  img {
+        max-width: 100%;
+        height: auto;
+      }
  .column {
     flex: 100%;
     max-width: 100%;
