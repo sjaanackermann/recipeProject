@@ -50,6 +50,10 @@
     transition: 0.3s;
   }
 
+  .nav-item {
+      padding-left: 30px;
+  }
+
 /* Text Colors */
 .primary-color a h1 {
     color: white;
@@ -150,6 +154,8 @@
     background-color: #1299ad;
     color: white;
     text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .newfont {
