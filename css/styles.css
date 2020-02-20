@@ -142,10 +142,6 @@
     margin-right: auto;
 }
 
-.img-center {
-    text-align: center;
-}
-
 /* Recipe Styling */
 
 .recipe {
@@ -167,6 +163,10 @@
     font-family: 'Righteous', cursive;
     font-size: 48px;
     color: white;
+    text-align: center;
+}
+
+.text-align {
     text-align: center;
 }
 
@@ -242,7 +242,7 @@ th {
       }
  .column {
     flex: 100%;
-    max-width: 75%;
+    max-width: 100%;
   }
   .table {
     max-width: 75%;
