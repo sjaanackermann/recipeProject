@@ -170,6 +170,12 @@
     text-align: center;
 }
 
+.block-text {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 
 /* New Nutritional Information*/
 
