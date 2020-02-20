@@ -173,7 +173,7 @@
 .block-text {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 
@@ -237,7 +237,7 @@ th {
     max-width: 75%;
   }
   .table {
-    max-width: 75%;
+    max-width: 100%;
 }
 }
 
@@ -251,7 +251,7 @@ th {
     max-width: 100%;
   }
   .table {
-    max-width: 75%;
+    max-width: 100%;
 }
 }
 
@@ -265,6 +265,6 @@ th {
     max-width: 100%;
   }
   .table {
-    max-width: 75%;
+    max-width: 100%;
 }
 }
